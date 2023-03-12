@@ -29,7 +29,7 @@ async function run(){
             const query={}
             const result=await alldataCollection.find(query).toArray()
             const count=await alldataCollection.estimatedDocumentCount()
-            res.send({count,result})
+            res.send(result)
         })
 
         app.get("/category/:name",async(req,res)=>{
@@ -42,6 +42,30 @@ async function run(){
            
             res.send(result)
         })
+
+        
+        app.put("/addcat",async(req,res)=>{
+            const name=req.body.name
+            console.log(name)
+            const filter = { name: name };
+            const options = { upsert: true };
+            const updateCat = {
+                $set: {
+                    name:req.body.age,
+                    age:req.body.age,
+                    ageCategory:req.body.ageCategory,
+                    img:req.body.img
+
+                }
+            }
+            const result = await alldataCollection.updateOne(filter, updateCat, options);
+        
+
+         
+       
+         
+          res.send(result)
+      })
 
 
     }

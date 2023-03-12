@@ -1,23 +1,11 @@
-[
-    {
-        "name":"Danger",
-        "img":"https://media-be.chewy.com/wp-content/uploads/2019/07/24115655/spotted-cat-breed-bengal-1024x576.jpg",
-        "nickName":"Tiger",
-        "age":5,
-        "ageCategory":" Infant"
-    },
-    {
-        "name":"basebase",
-        "img":"https://play-lh.googleusercontent.com/XVHP0sBKrRJYZq_dB1RalwSmx5TcYYRRfYMFO18jgNAnxHAIA1osxM55XHYTb3LpkV8",
-        "nickName":"Cuty",
-        "age":"5",
-        "ageCategory":" Infant"
-    },
-    {
-        "name":"Lazy",
-        "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQr3uNGr7vtsAAnetbJCZpiNOYPEgwZALWT6g&usqp=CAU",
-        "nickName":"alshia",
-        "age":"5",
-        "ageCategory":" Infant"
-    }
-]
+
+
+[{"id":1,"name":"RagDoll","age":15, "ageCategory" :"Young","nickName":"Leo","img":"https://i.ibb.co/sRLFJQw/cat7.jpg"},
+    {"id":2,"name":"Persian","age":5, "ageCategory":"Infant","nickName":"Buddy","img":"https://i.ibb.co/JcVq2JC/cat4.jpg"},
+    {"id":3,"name":"Somali","age":7, "ageCategory" :"Child","nickName":"Cutie","img":"https://i.ibb.co/cJgc0SG/cat3.jpg"},
+    {"id":4,"name":"Siamese","age":13, "ageCategory" :"Young","nickName":"Bella","img":"https://i.ibb.co/Sx5Hjsx/cat-10.jpg"},
+    {"id":5,"name":"Snowshoe","age":29, "ageCategory" :"Middle-Age","nickName":"Kitty","img":"https://i.ibb.co/zfkb7jv/cat-11.jpg"},
+
+    {"id":6,"name":"Laperm","age":45, "ageCategory":"Old","nickName":"Tommy","img":"https://i.ibb.co/GRCVbmf/cat-12.jpg"},
+    {"id":7,"name":"Abyssinian","age":9, "ageCategory" :"Child","nickName":"Pussy","img":"https://i.ibb.co/S7cdPnt/cat-13.jpg"},
+    {"id":7,"name":"Abyssinian","age":9, "ageCategory" :"Child","nickName":"Pussy","img":"https://i.ibb.co/S7cdPnt/cat-13.jpg"}]
